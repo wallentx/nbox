@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: cargo
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       interval: weekly
@@ -21,6 +22,7 @@ updates:
           - "version-update:semver-major"
 
   - package-ecosystem: github-actions
+    open-pull-requests-limit: 0
     directory: /
     schedule:
       interval: weekly
